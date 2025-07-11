@@ -1,14 +1,24 @@
-# glassify
+# 🧊 Glasses (glassify)
 
-`glassify` is a lightweight Flutter package that provides customizable glassmorphic UI containers with frosted blur effects, gradient backgrounds, and elegant gradient borders.
+`glasses` is a lightweight Flutter package that enables **glassmorphic UI** effects using customizable containers. It features frosted blur, gradient backgrounds, and elegant gradient borders to help you craft stunning modern UIs.
 
-It includes:
+---
 
-- 🔳 `GlassContainer` — for fixed-size glassmorphic widgets.
-- 🔲 `GlassFlexContainer` — for responsive/flexible layout use.
-- 🎨 Custom `GlassBorder` painter with gradient outlines.
+## 🚀 Features
 
-## ✨ Example
+* 🔳 `GlassContainer` – fixed-size, frosted-glass widget with blur and gradient.
+* 🔲 `GlassFlexContainer` – responsive version with full flexibility.
+* 🖌️ `GlassBorder` – custom painter for beautiful gradient borders.
+
+---
+
+## ✨ Preview
+
+> *Coming soon: animated GIF or screenshot — let me know if you'd like help generating it.*
+
+---
+
+## 🧱 Example Usage
 
 ```dart
 GlassContainer(
@@ -24,4 +34,65 @@ GlassContainer(
     colors: [Colors.white, Colors.blue],
   ),
   child: Center(child: Text("Glass!")),
-),
+)
+```
+
+---
+
+## 📦 Installation
+
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  glasses: ^1.0.0
+```
+
+Then run:
+
+```bash
+flutter pub get
+```
+
+---
+
+## 🧪 Testing
+
+You can run the included test suite with:
+
+```bash
+flutter test
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+lib/
+├── glassify.dart          # Export file
+├── widgets/
+│   ├── glass_border.dart
+│   ├── glass_container.dart
+│   └── glass_flex_container.dart
+test/
+└── glassify_test.dart
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature suggestions are welcome!
+Clone the repo and feel free to submit a PR:
+
+```bash
+git clone https://github.com/Redvey/glasses.git
+```
+
+---
+
+## 📜 License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
