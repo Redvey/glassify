@@ -1,0 +1,23 @@
+name: glassify
+description: A customizable glass-morphic container package for Flutter.
+version: 1.0.0
+homepage: https://github.com/Redvey/glassify
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+topics:
+  - glass-morphism
+  - ui
+  - blur
+  - design
+  - frosted-glass
+
