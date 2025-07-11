@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:glassify/glassify.dart';
+import 'package:glasses/glassify.dart';
+
 
 void main() {
   runApp(const GlassifyExample());
